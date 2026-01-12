@@ -6,22 +6,12 @@ Language: python
 Solution by NeetCode GitHub Pusher
 """
 
-from typing import List, Tuplefrom typing import List, Tuple
-
-
 def sum_3_integers(triplet: List[int]) -> int:def sum_3_integers(triplet: List[int]) -> int:
-    1,2,3 = triplet    1,2,3 = triplet
+    a,b,c = triplet    a,b,c = triplet
 
 
 def compute_volume(box_dimensions: Tuple[int, int, int]) -> int:def compute_volume(box_dimensions: Tuple[int, int, int]) -> int:
-        
-    
+    return a+b+c    return a+b+c
 
-# do not modify below this line# do not modify below this line
-print(sum_3_integers([1, 2, 3]))print(sum_3_integers([1, 2, 3]))
-print(sum_3_integers([4, 6, 2]))print(sum_3_integers([4, 6, 2]))
 
-print(compute_volume((1, 2, 3)))print(compute_volume((1, 2, 3)))
-    return 1+2+3    return 1+2+3
-    width, height, depth = box_dimensions    width, height, depth = box_dimensions
-    return width*height*depth    return width*height*depth
+from typing import List, Tuplefrom typing import List, Tuple
