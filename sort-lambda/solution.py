@@ -14,7 +14,7 @@ def sort_words(words: List[str]) -> List[str]:def sort_words(words: List[s
 
 
 def sort_numbers(numbers: List[int]) -> List[int]:def sort_numbers(numbers: List[int]) -> List[int]:
-    return sorted(numbers, key= abs))    return sorted(numbers, key= abs))
+    return sorted(numbers, key= abs)    return sorted(numbers, key= abs)
 
 
 # do not modify below this line# do not modify below this line
