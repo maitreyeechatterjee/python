@@ -10,11 +10,11 @@ from typing import Listfrom typing import List
 
 
 def sort_words(words: List[str]) -> List[str]:def sort_words(words: List[str]) -> List[str]:
-    pass    pass
+    sorted_words = sorted(words)    sorted_words = sorted(words)
 
 
 def sort_numbers(numbers: List[int]) -> List[int]:def sort_numbers(numbers: List[int]) -> List[int]:
-    pass    pass
+    sorted_numbers = sorted(numbers, reverse=True)    sorted_numbers = sorted(numbers, reverse=True)
 
 
 # do not modify below this line# do not modify below this line
@@ -27,3 +27,5 @@ original_numbers = [1, -5, -3, 2, 4, 11, -19, 9, -2, 5, -6, 7, -4,
 
 print(original_numbers)print(original_numbers)
 print(sort_numbers(original_numbers))print(sort_numbers(original_numbers))
+    return(sorted_words)    return(sorted_words)
+    return(sorted_numbers)    return(sorted_numbers)
