@@ -6,11 +6,11 @@ Language: python
 Solution by NeetCode GitHub Pusher
 """
 
+        if score > best_score:        if score > best_score:
+    for name, score in scores:    for name, score in scores:
+    best_name, best_score = "", -1    best_name, best_score = "", -1
+def best_student(scores: List[Tuple[探索する]]str, int]]) -> str:def best_student(scores: List[Tuple[探索する]]str, int]]) -> str:
 
 
-# do not modify below this line# do not modify below this line
-print(best_student([("Alice", 90), ("Bob", 80), ("Charlie", 70)]))print(best_student([("Alice", 90), ("Bob", 80), ("Charlie", 70)]))
-print(best_student([("Alice", 90), ("Bob", 80), ("Charlie", 100)]))print(best_student([("Alice", 90), ("Bob", 80), ("Charlie", 100)]))
-print(best_student([("Alice", 90), ("Bob", 100), ("Charlie", 70)]))print(best_student([("Alice", 90), ("Bob", 100), ("Charlie", 70)]))
-print(best_student([("Alice", 90), ("Bob", 90), ("Charlie", 80), ("David", 100)]))print(best_student([("Alice", 90), ("Bob", 90), ("Charlie", 80), ("David", 100)]))
+            best_name, best_score = name, score            best_name, best_score = name, score
     return best_name    return best_name
