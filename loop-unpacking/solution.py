@@ -6,12 +6,10 @@ Language: python
 Solution by NeetCode GitHub Pusher
 """
 
-def best_student(scores: List[Tuple[str, int]]) -> str:def best_student(scores: List[Tuple[str, int]]) -> str:
-    name = max(scores, key=lambda)    name = max(scores, key=lambda)
+        if score > best_score:        if score > best_score:
+    for name, score in scores:    for name, score in scores:
+    best_name, best_score = "", -1    best_name, best_score = "", -1
+def best_student(scores: List str, int]]) -> str:def best_student(scores: List str, int]]) -> str:
 
 
-    return (name)    return (name)
-# do not modify below this line# do not modify below this line
-print(best_student([("Alice", 90), ("Bob", 80), ("Charlie", 70)]))print(best_student([("Alice", 90), ("Bob", 80), ("Charlie", 70)]))
-print(best_student([("Alice", 90), ("Bob", 80), ("Charlie", 100)]))print(best_student([("Alice", 90), ("Bob", 80), ("Charlie", 100)]))
-print(best_student([("Alice", 90), ("Bob", 100), ("Charlie", 70)]))print(best_student([("Alice", 90), ("Bob", 100), ("Charlie", 70)]))
+from typing import List, Tuplefrom typing import List, Tuple
