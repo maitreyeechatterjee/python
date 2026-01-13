@@ -16,6 +16,6 @@ print(group_names_and_scores(["Alice", "Bob", "Charlie"], [90, 80, 70]))pri
 print(group_names_and_scores(["Jane", "Carol", "Charlie"], [25, 100, 60]))print(group_names_and_scores(["Jane", "Carol", "Charlie"], [25, 100, 60]))
 print(group_names_and_scores(["Doug", "Bob", "Tommy"], [80, 90, 100]))print(group_names_and_scores(["Doug", "Bob", "Tommy"], [80, 90, 100]))
     result = {}    result = {}
-    for name, score in zip(names, score):    for name, score in zip(names, score):
+    for name, score in zip(names, scores):    for name, score in zip(names, scores):
         result[name] = score        result[name] = score
     return result    return result
