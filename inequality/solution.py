@@ -6,12 +6,12 @@ Language: python
 Solution by NeetCode GitHub Pusher
 """
 
-# do not modify below this line# do not modify below this line
-    if 0 < len(names) >= max_length    if 0 < len(names) >= max_length
+
 def is_arr_valid(names: List[str], max_length: int) -> bool:def is_arr_valid(names: List[str], max_length: int) -> bool:
-
-
-from typing import Listfrom typing import List
-print(is_arr_valid(["Alice", "Bob", "Charlie"], 3))print(is_arr_valid(["Alice", "Bob", "Charlie"], 3))
+    if 0 < len(names) <= max_length:    if 0 < len(names) <= max_length:
+        return True        return True
+    return False    return False
+# do not modify below this line# do not modify below this line
+print(is_arr_valid("Alice", "Bob", "Charlie"], 3))print(is_arr_valid("Alice", "Bob", "Charlie"], 3))
 print(is_arr_valid(["Alice", "Bob", "Charlie"], 2))print(is_arr_valid(["Alice", "Bob", "Charlie"], 2))
 print(is_arr_valid(["Alice", "Bob", "Charlie"], 0))print(is_arr_valid(["Alice", "Bob", "Charlie"], 0))
