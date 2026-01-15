@@ -1,6 +1,6 @@
 # Code
 
-**🔗 Problem Link:** [View on NeetCode](https://neetcode.io/problems/python-resizable-list-part-2/solution)
+**🔗 Problem Link:** [View on NeetCode](https://neetcode.io/problems/python-list-concat/solution)
 
 ---
 
