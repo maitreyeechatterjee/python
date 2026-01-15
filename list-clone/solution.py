@@ -15,11 +15,3 @@ def remove_element(arr: List[int], element: int) -> List[int]:def remove_
 
 
 # do not modify below this line# do not modify below this line
-arr = [1, 3, 5, 7, 9]arr = [1, 3, 5, 7, 9]
-
-print(remove_element(arr, 3))print(remove_element(arr, 3))
-print(arr)print(arr)
-print(remove_element(arr, 9))print(remove_element(arr, 9))
-print(arr)print(arr)
-print(remove_element(arr, 1))print(remove_element(arr, 1))
-print(arr)print(arr)
