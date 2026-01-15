@@ -6,7 +6,6 @@ Language: python
 Solution by NeetCode GitHub Pusher
 """
 
-    return arr1    return arr1
 
 
 # do not modify below this line# do not modify below this line
