@@ -1,17 +1,17 @@
 """
 Problem: Code
-URL: https://neetcode.io/problems/python-list-clone/solution
+URL: https://neetcode.io/problems/python-list-comprehension/solution
 Language: python
 
 Solution by NeetCode GitHub Pusher
 """
 
-
-
-    return arr_list    return arr_list
-    arr_list.remove(element)    arr_list.remove(element)
-    arr_list = arr.copy()    arr_list = arr.copy()
-def remove_element(arr: List[int], element: int) -> List[int]:def remove_element(arr: List[int], element: int) -> List[int]:
-
-
 from typing import Listfrom typing import List
+
+
+def create_list_of_odds(n: int) -> List[int]:def create_list_of_odds(n: int) -> List[int]:
+        
+
+
+    return  [i for i in range(1,n+1,2)]    return  [i for i in range(1,n+1,2)]
+# do not modify below this line# do not modify below this line
