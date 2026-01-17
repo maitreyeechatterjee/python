@@ -1,6 +1,6 @@
 # Code
 
-**🔗 Problem Link:** [View on NeetCode](https://neetcode.io/problems/python-list-initialization/solution)
+**🔗 Problem Link:** [View on NeetCode](https://neetcode.io/problems/python-list-clone/solution)
 
 ---
 
