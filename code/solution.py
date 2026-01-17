@@ -1,6 +1,6 @@
 """
 Problem: Code
-URL: https://neetcode.io/problems/python-list-initialization/solution
+URL: https://neetcode.io/problems/python-list-clone/solution
 Language: python
 
 Solution by NeetCode GitHub Pusher
@@ -8,10 +8,10 @@ Solution by NeetCode GitHub Pusher
 
 
 
-      return arr      return arr
+    return arr_list    return arr_list
+    arr_list.remove(element)    arr_list.remove(element)
+    arr_list = arr.copy()    arr_list = arr.copy()
+def remove_element(arr: List[int], element: int) -> List[int]:def remove_element(arr: List[int], element: int) -> List[int]:
 
-# do not modify below this line# do not modify below this line
-print(create_list_with_value(5, 3, 7))print(create_list_with_value(5, 3, 7))
-print(create_list_with_value(1, 0, 5))print(create_list_with_value(1, 0, 5))
-print(create_list_with_value(10, 9, 9))print(create_list_with_value(10, 9, 9))
-print(create_list_with_value(10, 9, 0))print(create_list_with_value(10, 9, 0))
+
+from typing import Listfrom typing import List
