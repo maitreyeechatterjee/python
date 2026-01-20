@@ -6,11 +6,11 @@ Language: python
 Solution by NeetCode GitHub Pusher
 """
 
-    arr.insert(index, element)    arr.insert(index, element)
-def insert_at(arr: List[int], index: int, element: int) -> List[int]:def insert_at(arr: List[int], index: int, element: int) -> List[int]:
+from typing import Listfrom typing import List
 
 
-    return arr    return arr
-        arr.pop()        arr.pop()
-    return arr    return arr
+def append_elements(arr1: List[int], arr2: List[int]) -> List[int]:def append_elements(arr1: List[int], arr2: List[int]) -> List[int]:
+    for item in arr2:    for item in arr2:
+        arr1.append(item)        arr1.append(item)
+    return arr1    return arr1
 
