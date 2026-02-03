@@ -12,7 +12,9 @@ The above code will create a list of 5 zeros. It might seem strange to multiply 
 
 The above code will create a list of 3 ones.
 
-ChallengeImplement the following function: which should create and return a list of length size. All values in the list should be 0, except for the value at index index, which should be the parameter value. You may assume the index is within the bounds of the list. Time Complexity
+ChallengeImplement the following function: which should create and return a list of length size. All values in the list should be 0, except for the value at index index, which should be the parameter value.
+
+You may assume the index is within the bounds of the list. Time Complexity
 
 Time complexity: O(n)O(n)O(n) where nnn is the size of the resulting list.
 
