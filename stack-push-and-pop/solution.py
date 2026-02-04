@@ -15,3 +15,5 @@ def reverse_list(arr: List[int]) -> List[int]:def reverse_list(arr: List[i
 
 # do not modify below this line# do not modify below this line
 print(reverse_list([1, 2, 3]))print(reverse_list([1, 2, 3]))
+print(reverse_list([3, 2, 1, 4, 6, 2]))print(reverse_list([3, 2, 1, 4, 6, 2]))
+print(reverse_list([1, 9, 7, 3, 2, 1, 4, 6, 2]))print(reverse_list([1, 9, 7, 3, 2, 1, 4, 6, 2]))
