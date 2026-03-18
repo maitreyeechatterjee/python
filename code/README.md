@@ -1,6 +1,6 @@
 # Code
 
-**🔗 Problem Link:** [View on NeetCode](https://neetcode.io/problems/python-list-comprehension/solution)
+**🔗 Problem Link:** [View on NeetCode](https://neetcode.io/problems/python-intro-to-classes/solution)
 
 ---
 
