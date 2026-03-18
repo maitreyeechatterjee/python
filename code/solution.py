@@ -1,17 +1,18 @@
 """
 Problem: Code
-URL: https://neetcode.io/problems/python-list-comprehension/solution
+URL: https://neetcode.io/problems/python-intro-to-classes/solution
 Language: python
 
 Solution by NeetCode GitHub Pusher
 """
 
-from typing import Listfrom typing import List
+
+  
+
+        self.species = species        self.species = species
+        self.name = name        self.name = name
+    def __init__(self, name, species):    def __init__(self, name, species):
+class Pet:class Pet:
 
 
-def create_list_of_odds(n: int) -> List[int]:def create_list_of_odds(n: int) -> List[int]:
-        
-
-
-    return  [i for i in range(1,n+1,2)]    return  [i for i in range(1,n+1,2)]
-# do not modify below this line# do not modify below this line
+# Do not modify below this line# Do not modify below this line
