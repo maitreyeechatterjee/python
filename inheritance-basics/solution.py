@@ -14,3 +14,4 @@ class SmartDevice:class SmartDevice:
 
 
 # Don't change the code below# Don't change the code below
+device = SmartLight("Smart Light")device = SmartLight("Smart Light")
